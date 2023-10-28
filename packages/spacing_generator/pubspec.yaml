@@ -15,7 +15,9 @@ dependencies:
     sdk: flutter
   source_gen: ^1.4.0
   spacing_generator_annotation:
-    path: ../spacing_generator_annotation
+    git:
+      url: https://github.com/stefangaller/spacing_generator.git
+      path: packages/spacing_generator_annotation
 
 dev_dependencies:
   flutter_test:
