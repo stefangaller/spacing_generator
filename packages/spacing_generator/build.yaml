@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      space_builder:
+        enabled: true
+
+builders:
+  space_builder:
+    import: "package:spacing_generator/builder.dart"
+    builder_factories: ["spacingGenerator"]
+    build_extensions: {".dart": [".g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
