@@ -23,8 +23,8 @@ class SpacingGenerator extends GeneratorForAnnotation<Spacing> {
     return """
     
       extension SpacingExtension on BuildContext {
-        Spaces get spaces => Spaces();
-        Paddings get paddings => Paddings();
+        Spaces get spaces => const Spaces();
+        Paddings get paddings => const Paddings();
       }
     
     """;

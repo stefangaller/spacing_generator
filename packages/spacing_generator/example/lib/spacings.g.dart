@@ -7,6 +7,7 @@ part of 'spacings.dart';
 // **************************************************************************
 
 class Spaces {
+  const Spaces();
   // vertical
   SizedBox get verticalTiny => const SizedBox(height: 2.0);
   // horizontal
@@ -14,6 +15,7 @@ class Spaces {
 }
 
 class Paddings {
+  const Paddings();
   // vertical
   EdgeInsets get verticalTiny => const EdgeInsets.symmetric(vertical: 2.0);
   // horizontal
@@ -23,6 +25,6 @@ class Paddings {
 }
 
 extension SpacingExtension on BuildContext {
-  Spaces get spaces => Spaces();
+  Spaces get spaces => const Spaces();
   Paddings get paddings => Paddings();
 }

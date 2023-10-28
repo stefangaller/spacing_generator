@@ -3,7 +3,7 @@ import 'package:spacing_generator/src/string_utils.dart';
 
 buildPaddings(Iterable<VariableElement> fields) sync* {
   yield 'class Paddings {';
-
+  yield 'const Paddings();';
   // vertical padding
   yield '  // vertical';
   for (final field in fields) {
