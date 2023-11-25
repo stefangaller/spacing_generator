@@ -1,3 +1,7 @@
+## 0.1.0
+
+remove flutter dependency
+
 ## 0.0.2+3
 
 improve information in `README`

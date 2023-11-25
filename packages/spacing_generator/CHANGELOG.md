@@ -1,3 +1,7 @@
+## 0.1.1
+
+Remove flutter dependency, improve documentation
+
 ## 0.1.0
 
 Remove flutter dependency, improve documentation

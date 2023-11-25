@@ -6,4 +6,5 @@ part 'spacings.g.dart';
 @Spacing()
 class Spacings {
   static const tiny = 2.0;
+  static const small = 4.0;
 }
