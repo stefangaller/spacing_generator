@@ -2,6 +2,11 @@
 
 ## Installation
 
+`spacing_generator` depends on these packages to work:
+
+* [build_runner](https://pub.dev/packages/build_runner)
+* [spacing_generator_annotation](https://pub.dev/packages/spacing_generator_annotation)
+
 In your `pubspec.yaml` add the following dependencies:
 
 ```yaml
@@ -29,6 +34,11 @@ class SpaceValues {
   
 }
 
+```
+
+Run the `build_runner` to generate code:
+```zsh
+dart run build_runner build
 ```
 
 It creates an extension that allows to use spacings and paddings like:

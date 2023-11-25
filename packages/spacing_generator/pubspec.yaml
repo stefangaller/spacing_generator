@@ -1,13 +1,12 @@
 name: spacing_generator
 description: Code generation for spacings in Flutter. Automatically generate SizedBoxes and Paddings from defined sizes.
-version: 0.0.3
+version: 0.1.0
 homepage: https://github.com/stefangaller/spacing_generator
 repository: https://github.com/stefangaller/spacing_generator
 issue_tracker: https://github.com/stefangaller/spacing_generator/issues
 
 environment:
   sdk: '>=3.1.2 <4.0.0'
-  flutter: ">=1.17.0"
 
 dependencies:
   analyzer: ^6.2.0
