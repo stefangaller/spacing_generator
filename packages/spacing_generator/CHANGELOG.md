@@ -1,3 +1,7 @@
+## 0.1.1+2
+
+Remove flutter dependency, increment version of annotation package
+
 ## 0.1.1
 
 Remove flutter dependency, improve documentation
