@@ -23,7 +23,7 @@ extension SpacingExtension on BuildContext {
 ''',
 )
 @Spacing()
-class _$EmptyTest {}
+class $_EmptyTest {}
 
 @ShouldGenerate(
   r'''
@@ -52,12 +52,12 @@ extension SpacingExtension on BuildContext {
 ''',
 )
 @Spacing()
-class _$ValidDoubleContentTest {
+class $_ValidDoubleContentTest {
   static const double tiny = 2.0;
 }
 
 @ShouldThrow('Field "tiny" needs to be of type double')
 @Spacing()
-class _$InvalidIntContentTest {
+class $_InvalidIntContentTest {
   static const int tiny = 2;
 }

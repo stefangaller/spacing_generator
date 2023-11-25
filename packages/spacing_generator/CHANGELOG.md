@@ -1,3 +1,8 @@
+## 0.2.0
+
+* show error if annotated class contains fields with different type than double
+* add documentation for directly accessing `Paddings` and `Spaces` classes.
+
 ## 0.1.1+2
 
 Remove flutter dependency, increment version of annotation package

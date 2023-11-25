@@ -16,8 +16,8 @@ For a spacing `static const tiny = 2.0;` the following elements will be generate
 * horizontal `EdgeInsets`: `EdgeInsets.symmetric(horizontal: 2.0)`
 * all `EdgeInsets`: `EdgeInsets.all(2.0)`
 
-
 They can then easily be used with an extension on `BuildContext`:
+
 ```dart
 //  Paddings (EdgeInsets)
 context.paddings
@@ -80,6 +80,26 @@ Widget build(BuildContext context) {
           children: [
             const Text('Hello'),
             context.spacings.horizontalSmall,
+            const Text('World'),
+          ]
+      )
+  );
+}
+```
+
+Alternatively, the generated files can also be accessed by instantiating the generated classes directly.
+
+```dart
+Widget build(BuildContext context) {
+  final paddings = Paddings();
+  final spaces = Spaces();
+
+  return Padding(
+      padding: paddings.allTiny,
+      child: Column(
+          children: [
+            const Text('Hello'),
+            spaces.horizontalSmall,
             const Text('World'),
           ]
       )
