@@ -387,17 +387,19 @@ packages:
   spacing_generator:
     dependency: "direct dev"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.1"
+      name: spacing_generator
+      sha256: bf74da9cfcf02b5795ab18699b218879244b87ac10cb214a914043e35fe42c3b
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.2"
   spacing_generator_annotation:
     dependency: "direct main"
     description:
-      path: "../../spacing_generator_annotation"
-      relative: true
-    source: path
-    version: "0.0.1"
+      name: spacing_generator_annotation
+      sha256: c10cfca340ba8dd281de085cb28a47ac1772936cdc15d25cf1f6abdd6faac9ef
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.2"
   stack_trace:
     dependency: transitive
     description:

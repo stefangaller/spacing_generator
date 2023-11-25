@@ -10,12 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  spacing_generator_annotation:
-    path: ../../spacing_generator_annotation
+  spacing_generator_annotation: ^0.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  spacing_generator:
-    path: ../
+  spacing_generator: ^0.0.2
   build_runner: any

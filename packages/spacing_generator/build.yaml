@@ -6,7 +6,7 @@ targets:
 
 builders:
   space_builder:
-    import: "package:spacing_generator/builder.dart"
+    import: "package:spacing_generator/spacing_generator.dart"
     builder_factories: ["spacingGenerator"]
     build_extensions: {".dart": [".g.part"]}
     auto_apply: dependents
