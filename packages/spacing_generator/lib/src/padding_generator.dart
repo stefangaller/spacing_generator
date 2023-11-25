@@ -33,5 +33,3 @@ buildPaddings(Iterable<VariableElement> fields) sync* {
 
   yield '}';
 }
-
-

@@ -24,5 +24,3 @@ buildSizedBoxes(Iterable<VariableElement> fields) sync* {
 
   yield '}';
 }
-
-
