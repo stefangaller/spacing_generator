@@ -1,3 +1,7 @@
+## 0.0.2+3
+
+improve information in `README`
+
 ## 0.0.2+2
 
 improve information in `pubspec.yaml`

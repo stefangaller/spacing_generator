@@ -26,5 +26,5 @@ class Paddings {
 
 extension SpacingExtension on BuildContext {
   Spaces get spaces => const Spaces();
-  Paddings get paddings => Paddings();
+  Paddings get paddings => const Paddings();
 }

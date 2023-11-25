@@ -388,18 +388,18 @@ packages:
     dependency: "direct dev"
     description:
       name: spacing_generator
-      sha256: bf74da9cfcf02b5795ab18699b218879244b87ac10cb214a914043e35fe42c3b
+      sha256: "1cdab23873b8ed1e23f23765846642b62001bc994b212c1d7675643c6d2ad032"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.2"
+    version: "0.0.3"
   spacing_generator_annotation:
     dependency: "direct main"
     description:
       name: spacing_generator_annotation
-      sha256: c10cfca340ba8dd281de085cb28a47ac1772936cdc15d25cf1f6abdd6faac9ef
+      sha256: f92051683d332f3af620403c1ed40758f3c5cb5afd571da88b273ce3d9472359
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.2"
+    version: "0.0.2+2"
   stack_trace:
     dependency: transitive
     description:
