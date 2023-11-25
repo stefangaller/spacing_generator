@@ -12,6 +12,15 @@ class SpacingGenerator extends GeneratorForAnnotation<Spacing> {
     final fields = element.children.whereType<VariableElement>();
     final buffer = StringBuffer();
 
+    for (final field in fields) {
+      if (!field.type.isDartCoreDouble) {
+        throw InvalidGenerationSourceError(
+          'Field "${field.name}" needs to be of type double',
+          element: field,
+        );
+      }
+    }
+
     buffer.writeAll(buildSizedBoxes(fields), '\n');
     buffer.writeAll(buildPaddings(fields), '\n');
     buffer.write(_generateExtension());
