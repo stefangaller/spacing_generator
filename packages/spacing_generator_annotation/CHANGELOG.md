@@ -1,3 +1,7 @@
+## 0.2.0
+
+* update `flutter_lints` to version `3.0.1`
+
 ## 0.1.0
 
 remove flutter dependency

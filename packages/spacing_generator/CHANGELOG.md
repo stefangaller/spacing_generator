@@ -1,3 +1,10 @@
+## 0.3.1
+* update `spacing_generator_annotation` to `0.2.0`
+
+## 0.3.0
+
+* update `lints` to version `3.0.0`
+
 ## 0.2.0
 
 * show error if annotated class contains fields with different type than double
