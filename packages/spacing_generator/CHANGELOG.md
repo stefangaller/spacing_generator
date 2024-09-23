@@ -1,3 +1,6 @@
+## 0.4.0+1
+* update example
+
 ## 0.4.0
 
 * update `spacing_generator_annotation` to `0.3.0`

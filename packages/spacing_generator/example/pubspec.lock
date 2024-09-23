@@ -433,10 +433,10 @@ packages:
     dependency: "direct dev"
     description:
       name: spacing_generator
-      sha256: "3866dbf5befa9974a841bf4a249ba3871edaceb6a44910913c5a6df50bd7ed6a"
+      sha256: dc53d2fe97a4065f17eb42d98fdb8cd1ce70b665e19de0a74819ebdea0a03dd4
       url: "https://pub.dev"
     source: hosted
-    version: "0.4.0"
+    version: "0.4.0+2"
   spacing_generator_annotation:
     dependency: "direct main"
     description:
