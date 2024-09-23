@@ -1,3 +1,7 @@
+## 0.3.0
+
+* update `flutter_lints` to version `4.0.0`
+
 ## 0.2.0
 
 * update `flutter_lints` to version `3.0.1`

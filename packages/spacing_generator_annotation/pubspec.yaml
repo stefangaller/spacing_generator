@@ -1,6 +1,6 @@
 name: spacing_generator_annotation
 description: Annotations for spacing_generator. Automatically generate SizedBoxes and Paddings from defined sizes.
-version: 0.2.0
+version: 0.3.0
 homepage: https://github.com/stefangaller/spacing_generator
 repository: https://github.com/stefangaller/spacing_generator
 issue_tracker: https://github.com/stefangaller/spacing_generator/issues
@@ -10,4 +10,4 @@ environment:
   flutter: ">=1.17.0"
 
 dev_dependencies:
-  flutter_lints: ^3.0.1
+  flutter_lints: ^4.0.0
